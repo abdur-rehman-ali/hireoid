@@ -129,19 +129,16 @@ Scale up or down effortlessly - we adapt to your evolving needs."
       />
 
       <div className="bg-[#F8F9FB]">
-        <div className="max-w-1440 mx-auto  pt-10 mb-32">
-          <div className="flex flex-col gap-y-6 mx-24 py-10  h-[252px]">
-            <h1 className=" text-primary text-5xl font-extrabold leading-normal tracking-tight">
+        <div className="max-w-1440 mx-auto pt-10 mb-32">
+          <div className="flex flex-col gap-y-6 mx-4 md:mx-24 py-10 h-auto">
+            <h1 className="text-primary text-3xl md:text-5xl font-extrabold leading-normal tracking-tight">
               How it Works
             </h1>
-            <p className="text-xl font-light leading-6 text-gray">
-              At our core, we advocate for equal opportunities across all
-              businesses. Simply send us your job requirements, and our
-              AI-powered process will shortlist three qualified candidates for
-              your consideration. This way, you have the power to choose the
-              perfect fit for your team in matter of day.
+            <p className="text-lg md:text-xl font-light leading-6 text-gray">
+              At our core, we advocate for equal opportunities across all businesses. Simply send us your job requirements, and our AI-powered process will shortlist three qualified candidates for your consideration. This way, you have the power to choose the perfect fit for your team in a matter of days.
             </p>
           </div>
+
           <div className='px-8 lg:mx-16'>
             <HowDoesItWork data={contentData} />
           </div>
