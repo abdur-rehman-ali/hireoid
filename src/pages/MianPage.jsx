@@ -71,15 +71,19 @@ const MianPage = () => {
 
             {/* Save Up Section */}
             <div className='max-w-1440 mx-auto mt-20 mb-32'>
-                <div className='flex justify-between items-center bg-primary rounded-3xl mx-24 py-10 px-16'>
-                    <div className='flex flex-col gap-5'>
-                        <span className='font-bold text-4xl text-white'><span className='text-[#37B6B7] text-4xl font-black'>IMMEDIATELY</span> save up to</span>
-                        <span className='font-bold text-4xl text-white'><span className='text-[#37B6B7] text-4xl font-black'>47%</span> in payroll costs</span>
+                <div className='flex flex-col md:flex-row justify-between items-center bg-primary rounded-3xl mx-4 md:mx-24 py-8 md:py-10 px-8 md:px-16'>
+                    <div className='flex flex-col gap-5 text-center md:text-left'>
+                        <span className='font-bold text-3xl md:text-4xl text-white'>
+                            <span className='text-[#37B6B7] font-black'>IMMEDIATELY</span> save up to
+                        </span>
+                        <span className='font-bold text-3xl md:text-4xl text-white'>
+                            <span className='text-[#37B6B7] font-black'>47%</span> in payroll costs
+                        </span>
                     </div>
-                    <div>
+                    <div className='mt-6 md:mt-0'>
                         <button
-                            className="bg-[#37B6B7] text-white text-inter text-base py-4 px-4 font-bold rounded-full flex justify-center items-center gap-2">
-                            <div className='h-[3px] w-5 bg-white'></div>
+                            className="bg-[#37B6B7] text-white text-base md:text-lg py-3 md:py-4 px-4 font-bold rounded-full flex justify-center items-center gap-2">
+                            <div className='h-[2px] md:h-[3px] w-4 md:w-5 bg-white'></div>
                             <span>
                                 I’M READY TO SAVE & SCALE
                             </span>
