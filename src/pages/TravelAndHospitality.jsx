@@ -38,18 +38,23 @@ const TravelAndHospitality = () => {
                 buttonText="Get Started"
             />
             <WhyHireoid />
-            <div className='max-w-1440 mx-auto h-[540px]'>
-                <div className="flex flex-row-reverse justify-between items-center px-28 py-20">
-                    <div className='flex-[0.4]'>
-                        <img src={Card} alt="Hero" className="w-[488px] h-[340px] object-cover rounded-lg" />
+            <div className='max-w-1440 mx-auto'>
+                <div className="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-28 py-10 md:py-20">
+                    <div className='flex-1 md:flex-[0.4]'>
+                        <img
+                            src={Card}
+                            alt="Hero"
+                            className="w-full h-auto object-cover rounded-lg"
+                        />
                     </div>
-                    <div className='flex-[0.55] flex flex-col items-start gap-5 '>
-                        <h1 className=" text-primary text-6xl font-bold leading-normal tracking-wide">Right talent is the key to
-                            a successful brand.</h1>
-                        <p className="text-xl h-24 font-light leading-6 text-[#525252]">We’ll find you the best talent for
-                            Your business.</p>
-                        <button
-                            className="bg-primary text-white text-base py-2 px-6 font-semibold rounded-full">
+                    <div className='flex-1 md:flex-[0.55] flex flex-col items-start gap-5'>
+                        <h1 className="text-primary text-4xl md:text-5xl font-bold leading-normal tracking-wide">
+                            Grow your business with the best global talent
+                        </h1>
+                        <p className="text-lg md:text-xl font-light leading-6 text-[#525252]">
+                            Fill key roles with top talent in marketing, guest services, operations, and more. Elevate your guest experience and drive business growth.
+                        </p>
+                        <button className="bg-primary text-white text-base py-2 px-6 mb-4 font-semibold rounded-full">
                             Hire Talent
                             <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
                         </button>
