@@ -141,7 +141,7 @@ Scale up or down effortlessly - we adapt to your evolving needs."
               perfect fit for your team in matter of day.
             </p>
           </div>
-          <div className="mx-24  h-[540px]">
+          <div className='px-8 lg:mx-16'>
             <HowDoesItWork data={contentData} />
           </div>
         </div>

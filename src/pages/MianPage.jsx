@@ -53,15 +53,17 @@ const MianPage = () => {
             </div>
             {/* How Does it start */}
             <div className='bg-[#F8F9FB]'>
-                <div className='max-w-1440 mx-auto  pt-10 mb-32'>
-                    <div className='flex flex-col gap-y-6 mx-24 py-10  h-[252px]'>
-                        <h1 className=" text-primary text-5xl font-extrabold leading-normal tracking-tight">How it Works</h1>
-                        <p className="text-xl font-light leading-6 text-gray">At our core, we advocate for equal opportunities across all businesses.
-                            Simply send us your job requirements, and our AI-powered process will
-                            shortlist three qualified candidates for your consideration. This way, you
-                            have the power to choose the perfect fit for your team in matter of day.</p>
+                <div className='max-w-1440 mx-auto pt-10 mb-32'>
+                    <div className='flex flex-col gap-y-6 px-6 lg:mx-24 lg:py-10 h-auto lg:h-[252px]'>
+                        <h1 className="text-primary text-3xl lg:text-5xl font-extrabold leading-normal tracking-tight">
+                            How it Works
+                        </h1>
+                        <p className="text-base lg:text-xl font-light leading-6 text-gray pb-4">
+                            At our core, we advocate for equal opportunities across all businesses. Simply send us your job requirements, and our AI-powered process will shortlist three qualified candidates for your consideration. This way, you have the power to choose the perfect fit for your team in a matter of days.
+                        </p>
                     </div>
-                    <div className='mx-24  h-[540px]'>
+
+                    <div className='px-8 lg:mx-16'>
                         <HowDoesItWork data={contentData} />
                     </div>
                 </div>
