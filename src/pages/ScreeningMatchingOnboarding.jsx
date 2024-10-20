@@ -95,31 +95,34 @@ const ScreeningMatchingOnboarding = () => {
                 />
             </div>
             {/* Onboarding */}
-            <div className='flex flex-col items-start gap-6 text-left max-w-1440 mx-auto px-[112px] pt-20 pb-10'>
-                <h1 className=" text-primary text-6xl font-extrabold leading-normal">Onboarding</h1>
-                <p className="text-xl font-light leading-6 text-gray">Stress-free onboarding, seamless integration<br />
+            <div className='flex flex-col items-start gap-6 text-left max-w-1440 mx-auto px-6 md:px-[112px] pt-20 pb-10'>
+                <h1 className="text-primary text-4xl md:text-6xl font-extrabold leading-normal">Onboarding</h1>
+                <p className="text-base md:text-xl font-light leading-6 text-gray">
+                    Stress-free onboarding, seamless integration<br />
                     We handle all the onboarding logistics, ensuring your new team member smoothly integrates
                     with your company culture and gets up to speed on processes.
-                    This lets you focus on what matters most – welcoming your new star player!</p>
+                    This lets you focus on what matters most – welcoming your new star player!
+                </p>
 
-                <div className='flex flex-col items-start gap-6 '>
-                    <div className='flex justify-center items-center gap-3'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='color-[#525252]' />
-                        <p className='font-inter text-xl font-normal text-[#525252]'>Dedicated Customer Success Manager.</p>
+                <div className='flex flex-col items-start gap-6'>
+                    <div className='flex justify-start items-center gap-3'>
+                        <FontAwesomeIcon icon={faCircleCheck} className='text-[#525252]' />
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252]'>Dedicated Customer Success Manager.</p>
                     </div>
-                    <div className='flex justify-center items-center gap-3'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='color-[#525252]' />
-                        <p className='font-inter text-xl font-normal text-[#525252]'>Each employee is provided with all necessary technology and hardware.</p>
+                    <div className='flex justify-start items-center gap-3'>
+                        <FontAwesomeIcon icon={faCircleCheck} className='text-[#525252]' />
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252]'>Each employee is provided with all necessary technology and hardware.</p>
                     </div>
-                    <div className='flex justify-center items-center gap-3'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='color-[#525252]' />
-                        <p className='font-inter text-xl font-normal text-[#525252]'>Activation of your preferred communication methods.</p>
+                    <div className='flex justify-start items-center gap-3'>
+                        <FontAwesomeIcon icon={faCircleCheck} className='text-[#525252]' />
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252]'>Activation of your preferred communication methods.</p>
                     </div>
                 </div>
 
                 <button
                     // onClick={onButtonClick}
-                    className="bg-primary text-white text-base py-2 px-6 font-medium rounded-full">
+                    className="bg-primary text-white text-base py-2 px-6 font-medium rounded-full flex items-center"
+                >
                     Start Hiring
                     <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
                 </button>
