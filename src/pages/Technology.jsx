@@ -22,7 +22,7 @@ const Technology = () => {
                     <div className='flex flex-col  mx-24 py-10'>
                         <h1 className=" text-primary text-5xl font-extrabold leading-normal tracking-tight">Our Process</h1>
                     </div>
-                    <div className='mx-24 h-[540px]'>
+                    <div className='px-8 lg:mx-16'>
                         <HowDoesItWork data={contentData} />
                     </div>
                 </div>

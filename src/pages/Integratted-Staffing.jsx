@@ -8,10 +8,10 @@ import {
 import hero from "../assets/integratted-staffing/hero.png";
 import card01 from "../assets/integratted-staffing/card01.png";
 import card02 from "../assets/integratted-staffing/card02.png";
-import card03 from "../assets/integratted-staffing/card03.png"; 
-import card04 from "../assets/integratted-staffing/card04.png"; 
-import card05 from "../assets/integratted-staffing/card05.png"; 
-import card06 from "../assets/integratted-staffing/card06.png"; 
+import card03 from "../assets/integratted-staffing/card03.png";
+import card04 from "../assets/integratted-staffing/card04.png";
+import card05 from "../assets/integratted-staffing/card05.png";
+import card06 from "../assets/integratted-staffing/card06.png";
 
 import { contentData } from '@/data/contentData'
 
@@ -67,16 +67,17 @@ Scale up or down effortlessly - we adapt to your evolving needs."
         onButtonClick={() => alert("Button clicked!")}
       />
 
-      <div className="px-[120px] pt-20  max-w-1440 mx-auto flex flex-col gap-6">
-        <h1 className="text-primary text-5xl font-extrabold leading-normal tracking-tight">
+      <div className="px-4 md:px-[120px] pt-20 max-w-1440 mx-auto flex flex-col gap-6">
+        <h1 className="text-primary text-3xl md:text-5xl font-extrabold leading-normal tracking-tight">
           Discover the Hireoid Difference
         </h1>
-        <p className="text-[#525252] mb-6 text-xl font-light leading-snug tracking-tight">
+        <p className="text-[#525252] mb-6 text-lg md:text-xl font-light leading-snug tracking-tight">
           Go beyond traditional recruitment and unlock explosive growth.
           Discover how Hireoid's integrated staffing solutions can empower your
           business to achieve its full potential.
         </p>
       </div>
+
 
       <IntegrattedStaffingScreeningCards
         flexDir="flex-row"
@@ -128,26 +129,23 @@ Scale up or down effortlessly - we adapt to your evolving needs."
       />
 
       <div className="bg-[#F8F9FB]">
-        <div className="max-w-1440 mx-auto  pt-10 mb-32">
-          <div className="flex flex-col gap-y-6 mx-24 py-10  h-[252px]">
-            <h1 className=" text-primary text-5xl font-extrabold leading-normal tracking-tight">
+        <div className="max-w-1440 mx-auto pt-10 mb-32">
+          <div className="flex flex-col gap-y-6 mx-4 md:mx-24 py-10 h-auto">
+            <h1 className="text-primary text-3xl md:text-5xl font-extrabold leading-normal tracking-tight">
               How it Works
             </h1>
-            <p className="text-xl font-light leading-6 text-gray">
-              At our core, we advocate for equal opportunities across all
-              businesses. Simply send us your job requirements, and our
-              AI-powered process will shortlist three qualified candidates for
-              your consideration. This way, you have the power to choose the
-              perfect fit for your team in matter of day.
+            <p className="text-lg md:text-xl font-light leading-6 text-gray">
+              At our core, we advocate for equal opportunities across all businesses. Simply send us your job requirements, and our AI-powered process will shortlist three qualified candidates for your consideration. This way, you have the power to choose the perfect fit for your team in a matter of days.
             </p>
           </div>
-          <div className="mx-24  h-[540px]">
+
+          <div className='px-8 lg:mx-16'>
             <HowDoesItWork data={contentData} />
           </div>
         </div>
       </div>
 
-      <FAQComponent faqData={SatffingData} containerHeight="60px" title={"Frequently Asked Questions"}  />
+      <FAQComponent faqData={SatffingData} containerHeight="60px" title={"Frequently Asked Questions"} />
     </>
   );
 };

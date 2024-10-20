@@ -22,24 +22,31 @@ const ArtificialIntelligence = () => {
                     <div className='flex flex-col  mx-24 py-10'>
                         <h1 className=" text-primary text-5xl font-extrabold leading-normal tracking-tight">Our Process</h1>
                     </div>
-                    <div className='mx-24 h-[540px]'>
+                    <div className='px-8 lg:mx-16'>
                         <HowDoesItWork data={contentData} />
                     </div>
                 </div>
             </div>
             <Ceo />
             <WhyHireoid />
-            <div className='max-w-1440 mx-auto h-[540px]'>
-                <div className="flex flex-row-reverse justify-between items-center px-28 py-20">
-                    <div className='flex-[0.4]'>
-                        <img src={Card} alt="Hero" className="w-[488px] h-[340px] object-cover rounded-lg" />
+            <div className='max-w-1440 mx-auto'>
+                <div className="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-28 py-10 md:py-20">
+                    <div className='flex-1 md:flex-[0.4]'>
+                        <img
+                            src={Card}
+                            alt="Hero"
+                            className="w-full md:w-[488px] h-auto object-cover rounded-lg"
+                        />
                     </div>
-                    <div className='flex-[0.55] flex flex-col items-start gap-5 '>
-                        <h1 className=" text-primary text-6xl font-bold leading-tight tracking-wide">Build your future, Today.</h1>
-                        <p className="text-xl font-light leading-6 text-[#525252]">Lead the AI revolution, hire top global AI & ML engineers to shape innovations for the future.</p>
-                        <button
-                            className="bg-primary text-white text-base py-2 px-6 font-semibold rounded-full">
-                            Hire Talent
+                    <div className='flex-1 md:flex-[0.55] flex flex-col items-start gap-5'>
+                        <h1 className="text-primary text-4xl md:text-6xl font-bold leading-tight tracking-wide">
+                            Build your future, Today.
+                        </h1>
+                        <p className="text-lg md:text-xl font-light leading-6 text-[#525252]">
+                            Lead the AI revolution, hire top global AI & ML engineers to shape innovations for the future.
+                        </p>
+                        <button className="bg-primary text-white text-base py-2 px-6 mb-4 font-semibold rounded-full">
+                            Get Started
                             <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
                         </button>
                     </div>

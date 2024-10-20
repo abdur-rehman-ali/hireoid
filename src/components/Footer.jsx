@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import {
     Form,
     FormControl,
-    FormDescription,
     FormField,
     FormItem,
     FormLabel,
@@ -14,7 +13,6 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -41,13 +39,13 @@ const Footer = () => {
     }
 
     return (
-        <div className='h-[753px] bg-primary font-inter'>
-            <div className='max-w-1440 mx-auto h-[753px]'>
-                <div className='px-24 py-28  flex flex-col justify-center items-start gap-6'>
-                    <h1 className=" text-[#ffffff] mb-4 text-4xl font-bold leading-normal">Start Building Your Global Dream Team Today!</h1>
-                    <p className="text-xl font-normal leading-6 text-[#ffffff]  mb-6">Find out how much money you could be saving.</p>
+        <div className='h-auto bg-primary font-inter'>
+            <div className='max-w-1440 mx-auto py-12 px-6 md:px-24'>
+                <div className='flex flex-col justify-center items-start gap-6 text-center md:text-left'>
+                    <h1 className="text-[#e0e0e0] mb-4 text-3xl md:text-5xl font-bold leading-normal">Start Building Your Global Dream Team Today!</h1>
+                    <p className="text-lg font-normal leading-6 text-[#e0e0e0] mb-6">Find out how much money you could be saving.</p>
                     <button
-                        className="bg-[#37B6B7] text-[#ffffff]  text-inter text-base py-4 px-7 font-semibold rounded-full flex justify-center  items-center gap-2">
+                        className="bg-[#37B6B7] text-[#ffffff] text-inter text-base py-4 mb-4 px-7 font-semibold rounded-full flex justify-center items-center gap-2">
                         <span>
                             Get a Quote
                         </span>
@@ -56,52 +54,49 @@ const Footer = () => {
                 </div>
                 <div>
                     {/* Hireoid */}
-                    <div className='border-b-2 pb-6 mb-6 border-white mx-24  flex justify-between items-center'>
-                        <span className='text-3xl font-medium font-inter text-[#fff]'>Hireoid</span>
-                        <div className='flex gap-3'>
+                    <div className='border-b-2 pb-6 mb-6 border-white flex flex-col md:flex-row justify-between items-center'>
+                        <span className='text-3xl font-medium font-inter text-[#ffffff]'>Hireoid</span>
+                        <div className='flex gap-3 mt-3 md:mt-0'>
                             <a href="#">
-                                <img src={facebook} alt="" className='h-[16px] w-[27px] object-contain' />
+                                <img src={facebook} alt="Facebook" className='h-[16px] w-[27px] object-contain' />
                             </a>
                             <a href="#">
-                                <img src={instagram} alt="" className='h-[16px] w-[27px] object-contain' />
+                                <img src={instagram} alt="Instagram" className='h-[16px] w-[27px] object-contain' />
                             </a>
                             <a href="#">
-                                <img src={linkedin} alt="" className='h-[16px] w-[27px] object-contain' />
+                                <img src={linkedin} alt="LinkedIn" className='h-[16px] w-[27px] object-contain' />
                             </a>
                             <a href="#">
-                                <img src={twitter} alt="" className='h-[16px] w-[27px] object-contain' />
+                                <img src={twitter} alt="Twitter" className='h-[16px] w-[27px] object-contain' />
                             </a>
                         </div>
                     </div>
                     {/* Footer Nav */}
-                    <div className='flex justify-between mx-24 text-white'>
-                        <div className='flex flex-col gap-2 flex-[2]'>
-                            <div className='font-inter text-lg font-semibold '>Solutions</div>
-                            <div className='font-inter text-base font-normal '>Screening, Matching, Onboarding</div>
-                            <div className='font-inter text-base font-normal '>Integrated Staffing</div>
-                            <div className='font-inter text-base font-normal '>Global Payroll</div>
+                    <div className='flex flex-col md:flex-row justify-between text-white'>
+                        <div className='flex flex-col gap-2 flex-[1]'>
+                            <div className='font-inter text-lg font-bold text-[#e0e0e0]'>Solutions</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>Screening, Matching, Onboarding</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>Integrated Staffing</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>Global Payroll</div>
                         </div>
-                        <div className='flex flex-col gap-2 flex-[2]'>
-                            <div className='font-inter text-lg font-semibold '>More</div>
-                            <div className='font-inter text-base font-normal '>
-                                <Link to="/FAQ">
-                                    FAQ'S
-                                </Link>
+                        <div className='flex flex-col gap-2 flex-[1]'>
+                            <div className='font-inter text-lg font-bold text-[#e0e0e0]'>More</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>
+                                <Link to="/FAQ">FAQ'S</Link>
                             </div>
-                            <div className='font-inter text-base font-normal '>Case studies</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>Case studies</div>
                         </div>
-                        <div className='flex flex-col gap-2  flex-[2]'>
-                            <div className='font-inter text-lg font-semibold '>Help and Support</div>
+                        <div className='flex flex-col gap-2 flex-[1]'>
+                            <div className='font-inter text-lg font-bold text-[#e0e0e0]'>Help and Support</div>
                         </div>
-                        <div className='flex flex-col gap-2 flex-[2]'>
-                            <div className='font-inter text-lg font-semibold '>Affiliate Program</div>
+                        <div className='flex flex-col gap-2 flex-[1]'>
+                            <div className='font-inter text-lg font-bold text-[#e0e0e0]'>Affiliate Program</div>
                         </div>
-                        <div className='flex flex-col gap-3 flex-[4]'>
-                            <div className='font-inter text-lg font-semibold '> Get the Latest</div>
-                            <span className="font-inter text-sm text-[#E4E4E4] mb-4">Sign up to receive benefits, news and insights in your inbox once a
-                                month.</span>
+                        <div className='flex flex-col gap-3 flex-[1]'>
+                            <div className='font-inter text-lg font-semibold text-[#e0e0e0]'>Get the Latest</div>
+                            <span className="font-inter text-sm text-[#E4E4E4] mb-4">Sign up to receive benefits, news and insights in your inbox once a month.</span>
                             <Form {...form}>
-                                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+                                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
                                     <FormField
                                         control={form.control}
                                         name="email"
@@ -109,7 +104,7 @@ const Footer = () => {
                                             <FormItem>
                                                 <div className="relative w-full">
                                                     <FormControl>
-                                                        <Input placeholder="Email" {...field} className='pr-10 text-white bg-primary rounded-full py-6' />
+                                                        <Input placeholder="Email" {...field} className='pr-10 text-white bg-primary rounded-full py-3 md:py-6' />
                                                     </FormControl>
                                                     <button
                                                         type="submit"
@@ -127,10 +122,10 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* Footer Rights */}
-                    <div className="flex justify-center gap-48 text-[#fff] mt-6">
-                        <div className='font-inter text-sm font-regular '>© Hireold. All Rights Reserved.</div>
-                        <div className='font-inter text-sm font-regular '>Terms and Condition</div>
-                        <div className='font-inter text-sm font-regular '>Privacy Policy</div>
+                    <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-6 text-[#fff] mt-6">
+                        <div className='font-inter text-sm font-regular'>© Hireoid. All Rights Reserved.</div>
+                        <div className='font-inter text-sm font-regular'>Terms and Condition</div>
+                        <div className='font-inter text-sm font-regular'>Privacy Policy</div>
                     </div>
                 </div>
             </div>
@@ -138,4 +133,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
