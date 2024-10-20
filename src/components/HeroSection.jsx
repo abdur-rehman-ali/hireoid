@@ -4,7 +4,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const HeroSection = ({ title, subtitle, imageSrc, buttonText, onButtonClick }) => {
   return (
     <section className='bg-[#F2F6F7]'>
-      <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row-reverse font-inter items-center justify-center lg:gap-16 gap-8 px-6 lg:px-28 bg-[#F2F6F7] h-auto lg:h-[608px] py-8 lg:py-0">
+      <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row-reverse font-inter items-center justify-center lg:gap-16 gap-8 px-6 lg:px-8 bg-[#F2F6F7] h-auto lg:h-[608px] py-8 lg:py-0">
         <div className="w-full lg:w-auto">
           <img
             src={imageSrc}
