@@ -74,23 +74,23 @@ const Footer = () => {
                     {/* Footer Nav */}
                     <div className='flex flex-col md:flex-row justify-between text-white'>
                         <div className='flex flex-col gap-2 flex-[1]'>
-                            <div className='font-inter text-lg font-semibold text-[#e0e0e0]'>Solutions</div>
-                            <div className='font-inter text-base font-normal text-[#ffffff]'>Screening, Matching, Onboarding</div>
-                            <div className='font-inter text-base font-normal text-[#ffffff]'>Integrated Staffing</div>
-                            <div className='font-inter text-base font-normal text-[#ffffff]'>Global Payroll</div>
+                            <div className='font-inter text-lg font-bold text-[#e0e0e0]'>Solutions</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>Screening, Matching, Onboarding</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>Integrated Staffing</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>Global Payroll</div>
                         </div>
                         <div className='flex flex-col gap-2 flex-[1]'>
-                            <div className='font-inter text-lg font-semibold text-[#e0e0e0]'>More</div>
-                            <div className='font-inter text-base font-normal text-[#ffffff]'>
+                            <div className='font-inter text-lg font-bold text-[#e0e0e0]'>More</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>
                                 <Link to="/FAQ">FAQ'S</Link>
                             </div>
-                            <div className='font-inter text-base font-normal text-[#ffffff]'>Case studies</div>
+                            <div className='font-inter text-sm font-normal text-[#ffffff]'>Case studies</div>
                         </div>
                         <div className='flex flex-col gap-2 flex-[1]'>
-                            <div className='font-inter text-lg font-semibold text-[#e0e0e0]'>Help and Support</div>
+                            <div className='font-inter text-lg font-bold text-[#e0e0e0]'>Help and Support</div>
                         </div>
                         <div className='flex flex-col gap-2 flex-[1]'>
-                            <div className='font-inter text-lg font-semibold text-[#e0e0e0]'>Affiliate Program</div>
+                            <div className='font-inter text-lg font-bold text-[#e0e0e0]'>Affiliate Program</div>
                         </div>
                         <div className='flex flex-col gap-3 flex-[1]'>
                             <div className='font-inter text-lg font-semibold text-[#e0e0e0]'>Get the Latest</div>
