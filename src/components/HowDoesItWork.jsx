@@ -21,9 +21,9 @@ const HowDoesItWork = ({ data }) => {
                     <div className='flex justify-center items-center gap-1' key={item.id}>
                         <div className="flex flex-col items-center relative">
                             <button
-                                className={`h-11 w-[180px] text-base font-inter font-normal rounded-full flex justify-center items-center ${selectedContent.id === item.id
-                                        ? 'bg-teal-500 text-white'
-                                        : 'bg-white text-[#828699] border border-[#CCCCCC]'
+                                className={`h-10 w-[100px] text-base md:h-11 md:w-[150px] font-inter font-normal rounded-full flex justify-center items-center ${selectedContent.id === item.id
+                                    ? 'bg-teal-500 text-white'
+                                    : 'bg-white text-[#828699] border border-[#CCCCCC]'
                                     }`}
                                 onClick={() => handleContent(item.id)}
                             >
@@ -43,6 +43,7 @@ const HowDoesItWork = ({ data }) => {
                     </div>
                 ))}
             </div>
+
 
             {/* Content Section */}
             <div className="hidden lg:flex flex-col-reverse lg:flex-row-reverse justify-between items-center lg:gap-10 gap-6">
