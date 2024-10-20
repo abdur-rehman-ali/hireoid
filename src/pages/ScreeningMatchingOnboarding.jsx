@@ -128,31 +128,33 @@ const ScreeningMatchingOnboarding = () => {
                 </button>
             </div>
 
-            <div className='max-w-1440 mx-auto h-64 pb-28'>
-                <div className='flex justify-center'>
-                    <div className='flex flex-col justify-center items-center px-20 py-8'>
-                        <h1 className='text-primary mb-4 text-[40px] font-semibold leading-normal tracking-tight'>Hire Faster</h1>
+            <div className='max-w-1440 mx-auto pb-14'>
+                <div className='flex flex-col md:flex-row justify-center'>
+                    <div className='flex flex-col justify-center items-center px-6 md:px-20 py-4'>
+                        <h1 className='text-primary mb-4 text-3xl md:text-[40px] font-semibold leading-normal tracking-tight'>Hire Faster</h1>
                         <div className='flex justify-center items-center gap-3'>
                             <img src={oneGroup} alt="" />
-                            <span className='text-[#888B9A] text-xl font-inter'>5 Day</span>
+                            <span className='text-[#888B9A] text-base md:text-xl font-inter'>5 Day</span>
                         </div>
                     </div>
-                    <div className='flex flex-col justify-center items-center px-20 py-8'>
-                        <h1 className='text-primary mb-4 text-[40px] font-semibold leading-normal tracking-tight'>Save Money</h1>
+                    <div className='flex flex-col justify-center items-center px-6 md:px-20 py-4'>
+                        <h1 className='text-primary mb-4 text-3xl md:text-[40px] font-semibold leading-normal tracking-tight'>Save Money</h1>
                         <div className='flex justify-center items-center gap-3'>
                             <img src={twoGroup} alt="" />
-                            <span className='text-[#888B9A] text-xl font-inter'>47%</span>
+                            <span className='text-[#888B9A] text-base md:text-xl font-inter'>47%</span>
                         </div>
                     </div>
-                    <div className='flex flex-col justify-center items-center px-20 py-8'>
-                        <h1 className='text-primary mb-4 text-[40px] font-semibold leading-normal tracking-tight'>Zero Turnover</h1>
+                    <div className='flex flex-col justify-center items-center px-6 md:px-20 py-4'>
+                        <h1 className='text-primary mb-4 text-3xl md:text-[40px] font-semibold leading-normal tracking-tight'>Zero Turnover</h1>
                         <div className='flex justify-center items-center gap-3'>
                             <img src={threeGroup} alt="" />
-                            <span className='text-[#888B9A] text-xl font-inter'>No-Cost Replacement</span>
+                            <span className='text-[#888B9A] text-base md:text-xl font-inter'>No-Cost Replacement</span>
                         </div>
                     </div>
                 </div>
             </div>
+
+
         </>
     )
 }
