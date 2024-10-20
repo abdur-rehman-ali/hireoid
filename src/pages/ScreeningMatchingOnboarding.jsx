@@ -24,27 +24,27 @@ const ScreeningMatchingOnboarding = () => {
                 onButtonClick={() => alert('Button clicked!')}
             />
             {/* Screening */}
-            <div className='px-[120px] py-20 h-[593px] max-w-1440 mx-auto flex flex-col gap-6'>
-                <h1 className='text-primary mb-4 text-5xl font-extrabold leading-normal tracking-tight'>Screening</h1>
-                <p className='text-[#525252] mb-4 text-xl font-light leading-snug tracking-tight'>Our comprehensive selection process guarantees admission into our esteemed global talent
-                    network exclusively for top-tier candidates. Each applicant undergoes a rigorous interview
-                    process, encompassing an English proficiency assessment, a practical evaluation, and
-                    assessments for both technical expertise and interpersonal skills.</p>
-                <div className='flex justify-around items-center'>
-                    <div className='flex flex-col items-center justify-center gap-4 h-[229px] w-[384px]'>
+            <div className='px-6 md:px-[120px] py-10 md:py-20 h-auto max-w-1440 mx-auto flex flex-col gap-6'>
+                <h1 className='text-primary mb-4 text-3xl md:text-5xl font-extrabold leading-normal tracking-tight'>Screening</h1>
+                <p className='text-[#525252] mb-4 text-base md:text-xl font-light leading-snug tracking-tight'>
+                    Our comprehensive selection process guarantees admission into our esteemed global talent network exclusively for top-tier candidates. Each applicant undergoes a rigorous interview process, encompassing an English proficiency assessment, a practical evaluation, and assessments for both technical expertise and interpersonal skills.
+                </p>
+                <div className='flex flex-col md:flex-row justify-around items-center gap-6'>
+                    <div className='flex flex-col items-center justify-center gap-4 h-[229px] w-full md:w-[384px]'>
                         <img src={acceptance} alt="" className='h-28 w-28 object-contain' />
-                        <span className='font-semibold font-inter text-2xl tracking-tight text-primary '>Acceptance Rate</span>
+                        <span className='font-semibold font-inter text-xl md:text-2xl tracking-tight text-primary'>Acceptance Rate</span>
                     </div>
-                    <div className='flex flex-col items-center justify-center  gap-4 h-[229px] w-[384px]'>
+                    <div className='flex flex-col items-center justify-center gap-4 h-[229px] w-full md:w-[384px]'>
                         <img src={graduate} alt="" className='h-28 w-28 object-contain' />
-                        <span className='font-semibold font-inter text-2xl tracking-tight text-primary '>Are At least Graduates</span>
+                        <span className='font-semibold font-inter text-xl md:text-2xl tracking-tight text-primary'>Are At least Graduates</span>
                     </div>
-                    <div className='flex flex-col items-center justify-center  gap-4 h-[229px] w-[384px]'>
+                    <div className='flex flex-col items-center justify-center gap-4 h-[229px] w-full md:w-[384px]'>
                         <img src={proficiency} alt="" className='h-28 w-28 object-contain' />
-                        <span className='font-semibold font-inter text-2xl tracking-tight text-primary '>English Proficiency</span>
+                        <span className='font-semibold font-inter text-xl md:text-2xl tracking-tight text-primary'>English Proficiency</span>
                     </div>
                 </div>
             </div>
+
             {/* Talent Matching */}
             <div className='flex flex-col items-start gap-6 text-left max-w-1440 mx-auto px-[120px] py-20'>
                 <h1 className=" text-primary text-6xl font-extrabold leading-normal">Talent Matching</h1>
@@ -123,7 +123,7 @@ const ScreeningMatchingOnboarding = () => {
             </div>
 
             <div className='max-w-1440 mx-auto h-64 pb-28'>
-                <div className='flex justify-center'> 
+                <div className='flex justify-center'>
                     <div className='flex flex-col justify-center items-center px-20 py-8'>
                         <h1 className='text-primary mb-4 text-[40px] font-semibold leading-normal tracking-tight'>Hire Faster</h1>
                         <div className='flex justify-center items-center gap-3'>
