@@ -46,17 +46,20 @@ const ScreeningMatchingOnboarding = () => {
             </div>
 
             {/* Talent Matching */}
-            <div className='flex flex-col items-start gap-6 text-left max-w-1440 mx-auto px-[120px] py-20'>
-                <h1 className=" text-primary text-6xl font-extrabold leading-normal">Talent Matching</h1>
-                <p className="text-xl font-light leading-6 text-gray">With our effective talent matching strategy, we will identify 3 top candidates from our extensive
-                    global talent pool that align perfectly with your requirements and facilitate interviews with theseexceptional individuals.</p>
+            <div className='flex flex-col items-start gap-6 text-left max-w-1440 mx-auto px-6 md:px-[120px] py-10 md:py-20'>
+                <h1 className="text-primary text-4xl md:text-6xl font-extrabold leading-normal">Talent Matching</h1>
+                <p className="text-base md:text-xl font-light leading-6 text-gray">
+                    With our effective talent matching strategy, we will identify 3 top candidates from our extensive global talent pool that align perfectly with your requirements and facilitate interviews with these exceptional individuals.
+                </p>
                 <button
                     // onClick={onButtonClick}
-                    className="bg-primary text-white text-base py-2 px-6 font-medium rounded-full">
+                    className="bg-primary text-white text-base py-2 px-6 font-medium rounded-full flex items-center"
+                >
                     Schedule a demo
                     <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
                 </button>
             </div>
+
             {/* Cards */}
             <div>
                 <ScreeningCards
