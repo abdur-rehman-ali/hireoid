@@ -66,39 +66,39 @@ Scale up or down effortlessly - we adapt to your evolving needs."
         onButtonClick={() => alert("Button clicked!")}
       />
 
-      <div className="px-[120px] pt-20  max-w-1440 mx-auto flex flex-col gap-6">
-        <h1 className="text-primary text-5xl font-extrabold leading-normal tracking-tight">
+      <div className="px-6 md:px-[120px] pt-20 max-w-1440 mx-auto flex flex-col gap-6">
+        <h1 className="text-primary text-4xl md:text-5xl font-extrabold leading-normal tracking-tight">
           About Affiliates Program
         </h1>
-        <p className="text-[#525252] mb-6 text-xl font-light leading-snug tracking-tight">
-          From helping start-ups get their MVP live, to managing multi-year,
-          million dollar enterprise solution build-outs - we got you covered.
+        <p className="text-[#525252] mb-6 text-lg md:text-xl font-light leading-snug tracking-tight">
+          From helping start-ups get their MVP live, to managing multi-year,
+          million-dollar enterprise solution build-outs - we got you covered.
         </p>
       </div>
 
       <AboutAffiliatesProgram />
 
-      <div
-        className={`flex flex-row-reverse gap-8 px-28 py-20  h-[560px] max-w-1440 mx-auto`}
-      >
+      <div className={`flex flex-col md:flex-row-reverse gap-8 px-6 md:px-28 py-5 max-w-1440 mx-auto`}>
         <div className="flex-1 flex justify-center">
           <img
             src={cardOne}
             style={{ height: `409px`, width: `511px` }}
             className="object-contain"
+            alt="Description of card" 
           />
         </div>
         <div className="flex flex-col flex-1 items-start justify-center">
-          <h1 className=" text-primary mb-4 text-5xl font-extrabold leading-normal tracking-tight">
-            How does Hireoids Affiliates Program work?
+          <h1 className="text-primary mb-4 text-4xl md:text-5xl font-extrabold leading-normal tracking-tight">
+            How does Hireoid’s Affiliates Program work?
           </h1>
-          <p className="text-xl font-normal leading-6 text-gray mb-6">
-            The Hireoids Affiliates Program is designed for influencers,
-            incubators or any business who is interested in earning commission
+          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            The Hireoid’s Affiliates Program is designed for influencers,
+            incubators, or any business interested in earning commission
             by promoting Hireoid.com to their audience or partners.
           </p>
         </div>
       </div>
+
 
       <Topperformer
         showButton={false}
