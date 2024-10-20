@@ -45,7 +45,7 @@ const Footer = () => {
                     <h1 className="text-[#e0e0e0] mb-4 text-3xl md:text-5xl font-bold leading-normal">Start Building Your Global Dream Team Today!</h1>
                     <p className="text-lg font-normal leading-6 text-[#e0e0e0] mb-6">Find out how much money you could be saving.</p>
                     <button
-                        className="bg-[#37B6B7] text-[#ffffff] text-inter text-base py-4 px-7 font-semibold rounded-full flex justify-center items-center gap-2">
+                        className="bg-[#37B6B7] text-[#ffffff] text-inter text-base py-4 mb-4 px-7 font-semibold rounded-full flex justify-center items-center gap-2">
                         <span>
                             Get a Quote
                         </span>
