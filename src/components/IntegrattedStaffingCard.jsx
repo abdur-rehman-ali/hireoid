@@ -10,7 +10,7 @@ const IntegrattedStaffingScreeningCards = ({
   subtitle,
 }) => {
   return (
-    <div className={`flex ${flexDir} flex-col-reverse lg:${flexDir} gap-8 px-6 lg:px-28 lg:py-10 h-auto max-w-7xl mx-auto`}>
+    <div className={`flex ${flexDir} max-md:flex-col-reverse lg:${flexDir} gap-8 px-6 lg:px-28 lg:py-10 h-auto max-w-7xl mx-auto`}>
       <div className='flex justify-center flex-[2]'>
         <img
           src={imageSrc}
