@@ -1,6 +1,6 @@
 const ScreeningCards = ({ flexDir, number, imageSrc, imageHeight, imageWidth, title, subtitle }) => {
     return (
-    <div className={`flex ${flexDir} flex-col-reverse lg:${flexDir} gap-8 px-6 lg:px-20 py-12 lg:py-20 h-auto lg:h-[560px] max-w-7xl mx-auto`}>
+    <div className={`flex ${flexDir} max-md:flex-col-reverse lg:${flexDir} gap-8 px-6 lg:px-20 py-12 lg:py-20 h-auto lg:h-[560px] max-w-7xl mx-auto`}>
         <div className='flex justify-center flex-[2]'>
           <img
             src={imageSrc}
