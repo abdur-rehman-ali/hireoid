@@ -3,7 +3,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const HomeCards = ({ flexDir, title, subtitle, imageSrc, imageHeight, imageWidth, buttonText, onButtonClick }) => {
     return (
-        <div className={`flex ${flexDir} flex-col-reverse lg:${flexDir} gap-8 px-6 lg:px-28 py-12 lg:py-20 h-auto lg:h-[560px] max-w-7xl mx-auto`}>
+        <div className={`flex ${flexDir} max-md:flex-col-reverse lg:${flexDir} gap-8 px-6 lg:px-28 py-12 lg:py-20 h-auto max-w-7xl mx-auto`}>
             <div className='flex-1 flex justify-center'>
                 <img
                     src={imageSrc}
