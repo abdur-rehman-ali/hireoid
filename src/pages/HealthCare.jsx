@@ -7,22 +7,23 @@ import Insurance from "../assets/health-care/Insurance.png"
 import MedicalBilling from "../assets/health-care/MedicalBilling.png"
 import MedicalCode from "../assets/health-care/MedicalCode.png"
 import CardGrid from '@/components/card/CardGrid'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const healthCareCardsData = [
     {
-      image: ClientSuccess,
+        image: ClientSuccess,
     },
     {
-      image: Insurance,
+        image: Insurance,
     },
     {
-      image: MedicalBilling,
+        image: MedicalBilling,
     },
     {
-      image: MedicalCode,
+        image: MedicalCode,
     },
-  ];
+];
 
 
 const HealthCare = () => {
@@ -51,9 +52,43 @@ const HealthCare = () => {
                     </div>
                 </div>
             </div>
-            {/* CEO Spliang */}
-            <Ceo />
 
+            <div className='flex flex-col items-start gap-6 text-left max-w-1440 mx-auto px-6 md:px-[112px] py-10'>
+                <h1 className="text-primary text-4xl md:text-6xl font-extrabold leading-normal">
+                    Focus on what matters most – your patients' care,experience the 'Hireoid' difference, a bond beyond compare.
+                </h1>
+                <p className="text-base md:text-xl font-light leading-6 text-gray">
+                    Hireoid handles everything from recruitment and onboarding to payroll and benefits, giving you back valuable time to focus on your patients.
+                </p>
+
+                <div className='flex flex-col items-start gap-6'>
+                    <div className='flex justify-start items-center gap-3'>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252]'>
+                            Fill openings 5x faster with our pre-vetted talent pool.
+                        </p>
+                    </div>
+                    <div className='flex justify-start items-center gap-3'>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252]'>
+                            Save up to 47% on staffing costs with Hireoid's remote talent pool.
+                        </p>
+                    </div>
+                    <div className='flex justify-start items-center gap-3'>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252]'>
+                            Say goodbye to revolving doors! Hireoid's 96.2% retention rate ensures a stable, sustainable, qualified team.
+                        </p>
+                    </div>
+                </div>
+
+                <button
+                    className="bg-primary text-white text-base py-2 px-6 font-medium rounded-full flex items-center"
+                >
+                    Get started
+                    <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
+
+                </button>
+            </div>
+
+            <Ceo />
         </>
     )
 }
