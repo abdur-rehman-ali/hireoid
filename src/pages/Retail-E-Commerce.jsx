@@ -3,8 +3,29 @@ import hero from '../assets/ReatilEcommerce/hero.png'
 import { HeroSection, HowDoesItWork, Ceo, Topperformer, WhyHireoid } from '../components'
 import { contentData } from '@/data/contentData'
 import Card from "../assets/ReatilEcommerce/card_image.png"
+import SalesAssociate from "../assets/ReatilEcommerce/Sales-Associate.png"
+import VisuaMerchandiser from "../assets/ReatilEcommerce/Visual-Merchandiser.png"
+import StoreOperationsManager from "../assets/ReatilEcommerce/StoreOperationsManager.png"
+import InventoryControlSpecialist from "../assets/ReatilEcommerce/Inventory-Control-Specialist.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import CardGrid from '@/components/card/CardGrid'
+
+
+const retailCardsData = [
+    {
+      image: SalesAssociate,
+    },
+    {
+      image: VisuaMerchandiser,
+    },
+    {
+      image: InventoryControlSpecialist,
+    },
+    {
+      image: StoreOperationsManager,
+    },
+  ];
 
 
 const RetailCommerce = () => {
@@ -17,7 +38,12 @@ const RetailCommerce = () => {
                 buttonText="Hire Talent"
                 onButtonClick={() => alert('Button clicked!')}
             />
-            {/* How it Works */}
+
+            <CardGrid
+                cardTitle="Find the Perfect Talent Fit"
+                cardsData={retailCardsData}
+            />
+
             <div className='bg-[#F8F9FB]'>
                 <div className='max-w-1440 mx-auto pt-10 '>
                     <div className='flex flex-col  mx-24 py-10'>

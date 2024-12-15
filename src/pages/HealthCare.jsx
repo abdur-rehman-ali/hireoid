@@ -2,9 +2,30 @@ import React from 'react'
 import hero from '../assets/health-care/hero.png'
 import { HeroSection, HowDoesItWork, Ceo, Topperformer, WhyHireoid } from '../components'
 import { contentData } from '@/data/contentData'
-import Card from "../assets/ReatilEcommerce/card_image.png"
+import ClientSuccess from "../assets/health-care/ClientSuccess.png"
+import Insurance from "../assets/health-care/Insurance.png"
+import MedicalBilling from "../assets/health-care/MedicalBilling.png"
+import MedicalCode from "../assets/health-care/MedicalCode.png"
+import summary1 from "../assets/health-care/summary.png"
+import CardGrid from '@/components/card/CardGrid'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
+const healthCareCardsData = [
+    {
+        image: ClientSuccess,
+    },
+    {
+        image: Insurance,
+    },
+    {
+        image: MedicalBilling,
+    },
+    {
+        image: MedicalCode,
+    },
+];
+
 
 const HealthCare = () => {
     return (
@@ -15,6 +36,11 @@ const HealthCare = () => {
                 imageSrc={hero}
                 buttonText="Hire Talent"
                 onButtonClick={() => alert('Button clicked!')}
+            />
+
+            <CardGrid
+                cardTitle="Chronic staffing challenges? </br> Hireoid has the cure: Pre-vetted candidates."
+                cardsData={healthCareCardsData}
             />
             {/* How it Works */}
             <div className='bg-[#F8F9FB]'>
@@ -27,9 +53,54 @@ const HealthCare = () => {
                     </div>
                 </div>
             </div>
-            {/* CEO Spliang */}
+
+            <div className='flex flex-col items-start gap-6 text-left max-w-1440 mx-auto px-6 md:px-[112px] py-10'>
+                <h1 className="text-primary text-4xl md:text-6xl font-extrabold leading-normal">
+                    Focus on what matters most – your patients' care,experience the 'Hireoid' difference, a bond beyond compare.
+                </h1>
+                <p className="text-base md:text-xl font-light leading-6 text-gray">
+                    Hireoid handles everything from recruitment and onboarding to payroll and benefits, giving you back valuable time to focus on your patients.
+                </p>
+
+                <div className='flex flex-col items-start gap-6'>
+                    <div className='flex justify-start items-center gap-3'>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252] underline'>
+                            Fill openings 5x faster with our pre-vetted talent pool.
+                        </p>
+                    </div>
+                    <div className='flex justify-start items-center gap-3'>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252] underline'>
+                            Save up to 47% on staffing costs with Hireoid's remote talent pool.
+                        </p>
+                    </div>
+                    <div className='flex justify-start items-center gap-3'>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252] underline'>
+                            Say goodbye to revolving doors! Hireoid's 96.2% retention rate ensures a stable, sustainable, qualified team.
+                        </p>
+                    </div>
+                </div>
+
+                <button
+                    className="bg-primary text-white text-base py-2 px-6 font-medium rounded-full flex items-center"
+                >
+                    Get started
+                    <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
+
+                </button>
+            </div>
+
+            <section className="flex flex-col items-start gap-6 text-left w-full px-6 md:px-[112px] py-10 md:py-20 flex-grow">
+                <h1 className="text-primary text-4xl md:text-6xl font-extrabold leading-tight w-full">
+                    Securing Your Tomorrow, Today.
+                </h1>
+                <p className="text-base md:text-xl font-light leading-6 text-gray">
+                    Protecting your patients' privacy is our priority. Our policies ensure your practice is HIPAA-compliant today and prepared for future advancements.                </p>
+                <div className="relative w-full max-w-full mx-auto mt-8 flex-grow">
+                    <img src={summary1} alt="Payroll summary" className="w-full h-full object-cover" />
+                </div>
+            </section>
+
             <Ceo />
-           
         </>
     )
 }
