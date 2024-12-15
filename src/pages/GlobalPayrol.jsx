@@ -4,7 +4,7 @@ import hero from "../assets/global-payrol/global-payrol-hero.png"
 import frame1 from "../assets/global-payrol/global-frame-1.png"
 import frame2 from "../assets/global-payrol/global-frame-2.png"
 import summary from "../assets/global-payrol/summary-detail.png"
-import summary1 from "../assets/global-payrol/summary1.svg.png"
+import summary1 from "../assets/global-payrol/global-payrol-workforce.png"
 
 const GlobalPayrol = () => {
   return (
@@ -52,6 +52,16 @@ speed, flexibility, and compliance."
 
         <div className="relative w-full max-w-full mx-auto mt-8">
           <img src={summary} alt="Payroll summary" className="w-full" />
+        </div>
+      </div>
+
+      <div className="flex flex-col items-start gap-6 text-left w-full mx-auto px-6 md:px-[112px] pt-20 pb-10">
+        <h1 className="text-primary text-4xl md:text-6xl font-extrabold leading-tight w-full">
+          Global Workforce Management Made Easy.
+        </h1>
+
+        <div className="relative w-full max-w-full mx-auto mt-8">
+          <img src={summary1} alt="Payroll summary" className="w-full" />
         </div>
       </div>
 
