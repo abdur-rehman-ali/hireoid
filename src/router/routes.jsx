@@ -1,6 +1,25 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from '../App';
-import { JoinUs, ScreeningMatchingOnboarding, MainPage, AffiliateProgram, ChooseYourIndustry, FillTheApplication, AllignWithTeam, GetYourDreamJob, ApplyNowForm, RetailCommerce, HealthCare, TravelAndHospitality, Transportation, Technology, ArtificialIntellegence, FooterFAQ, IntegrattedStaffing} from '../pages';
+import {
+  JoinUs,
+  ScreeningMatchingOnboarding,
+  MainPage,
+  AffiliateProgram,
+  ChooseYourIndustry,
+  FillTheApplication,
+  AllignWithTeam,
+  GetYourDreamJob,
+  ApplyNowForm,
+  RetailCommerce,
+  HealthCare,
+  TravelAndHospitality,
+  Transportation,
+  Technology,
+  ArtificialIntellegence,
+  FooterFAQ,
+  IntegrattedStaffing,
+  GlobalPayrol
+} from '../pages';
 import { Error } from '../components';
 
 const appRouter = createBrowserRouter([
@@ -19,6 +38,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/screening-matching-onboarding",
         element: <ScreeningMatchingOnboarding />
+      },
+      {
+        path: "/global-payrol",
+        element: <GlobalPayrol />
       },
       {
         path: "/retail-and-e-commerce",
@@ -49,8 +72,8 @@ const appRouter = createBrowserRouter([
         element: <JoinUs />
       },
       {
-        path:"/FAQ",
-        element: <FooterFAQ/>
+        path: "/FAQ",
+        element: <FooterFAQ />
       },
       {
         path: "/affiliate-program",

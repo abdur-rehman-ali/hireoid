@@ -50,12 +50,14 @@ const Navbar = () => {
                                     </Link>
                                 </DropdownMenuItem>
                                 <DropdownMenuItem className="mb-4">
-                                <Link to="/integrated-staffing">
-                                    Integrated Staffing
+                                    <Link to="/integrated-staffing">
+                                        Integrated Staffing
                                     </Link>
                                 </DropdownMenuItem>
                                 <DropdownMenuItem className="mb-4">
-                                    Global Payroll
+                                <Link to="/global-payrol">
+                                        Global Payroll
+                                    </Link>
                                 </DropdownMenuItem>
                             </DropdownMenuGroup>
                         </DropdownMenuContent>

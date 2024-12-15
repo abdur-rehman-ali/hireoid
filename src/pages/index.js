@@ -15,6 +15,7 @@ import ArtificialIntellegence from "./Artificial-Intelligence.jsx";
 import FooterFAQ from "./Footer-FAQ.jsx";
 import IntegrattedStaffing from "./Integratted-Staffing.jsx";
 import AffiliateProgram from "./Affiliate-Program.jsx";
+import GlobalPayrol from "./GlobalPayrol.jsx"
 
 export {
     JoinUs,
@@ -34,4 +35,5 @@ export {
     FooterFAQ, 
     IntegrattedStaffing,
     AffiliateProgram,
+    GlobalPayrol
 }
