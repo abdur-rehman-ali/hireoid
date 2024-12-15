@@ -16,7 +16,7 @@ const HeroSection = ({ title, subtitle, imageSrc, buttonText, onButtonClick }) =
           <h1 className="text-primary mb-4 text-3xl lg:text-5xl font-extrabold leading-snug lg:leading-tight">
             {title}
           </h1>
-          <p className="text-base lg:text-xl font-normal leading-5 lg:leading-6 text-gray-700 mb-6">
+          <p className="text-base lg:text-xl font-normal leading-5 lg:leading-6 text-[#525252] mb-6">
             {subtitle}
           </p>
           <button

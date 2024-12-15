@@ -5,6 +5,27 @@ import { contentData } from '@/data/contentData'
 import Card from "../assets/ReatilEcommerce/card_image.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import ClientSuccess from "../assets/health-care/ClientSuccess.png"
+import Insurance from "../assets/health-care/Insurance.png"
+import MedicalBilling from "../assets/health-care/MedicalBilling.png"
+import MedicalCode from "../assets/health-care/MedicalCode.png"
+import CardGrid from '@/components/card/CardGrid'
+
+
+const healthCareCardsData = [
+    {
+        image: ClientSuccess,
+    },
+    {
+        image: Insurance,
+    },
+    {
+        image: MedicalBilling,
+    },
+    {
+        image: MedicalCode,
+    },
+];
 
 const Transportation = () => {
     return (
@@ -15,6 +36,10 @@ const Transportation = () => {
                 imageSrc={hero}
                 buttonText="Get Started"
                 onButtonClick={() => alert('Button clicked!')}
+            />
+            <CardGrid
+                cardTitle="Find your ideal talent match"
+                cardsData={healthCareCardsData}
             />
             {/* How it Works */}
             <div className='bg-[#F8F9FB]'>

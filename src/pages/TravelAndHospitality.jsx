@@ -3,8 +3,29 @@ import hero from '../assets/travel-and-hospitality/hero.png'
 import { HeroSection, HowDoesItWork, Ceo, Topperformer, WhyHireoid } from '../components'
 import { contentData } from '@/data/contentData'
 import Card from "../assets/ReatilEcommerce/card_image.png"
+import CardGrid from '@/components/card/CardGrid'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import ClientSuccess from "../assets/health-care/ClientSuccess.png"
+import Insurance from "../assets/health-care/Insurance.png"
+import MedicalBilling from "../assets/health-care/MedicalBilling.png"
+import MedicalCode from "../assets/health-care/MedicalCode.png"
+
+const healthCareCardsData = [
+    {
+        image: ClientSuccess,
+    },
+    {
+        image: Insurance,
+    },
+    {
+        image: MedicalBilling,
+    },
+    {
+        image: MedicalCode,
+    },
+];
+
 
 const TravelAndHospitality = () => {
     return (
@@ -15,6 +36,11 @@ const TravelAndHospitality = () => {
                 imageSrc={hero}
                 buttonText="Get Started"
                 onButtonClick={() => alert('Button clicked!')}
+            />
+
+            <CardGrid
+                cardTitle="Our talent has experience working as"
+                cardsData={healthCareCardsData}
             />
             {/* How it Works */}
             <div className='bg-[#F8F9FB]'>
