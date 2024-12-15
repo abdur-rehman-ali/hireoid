@@ -3,6 +3,8 @@ import { HeroSection } from '../components'
 import hero from "../assets/global-payrol/global-payrol-hero.png"
 import frame1 from "../assets/global-payrol/global-frame-1.png"
 import frame2 from "../assets/global-payrol/global-frame-2.png"
+import summary from "../assets/global-payrol/summary-detail.png"
+import summary1 from "../assets/global-payrol/summary1.svg.png"
 
 const GlobalPayrol = () => {
   return (
@@ -36,6 +38,20 @@ speed, flexibility, and compliance."
               className="w-80 h-64 md:w-80 md:h-40 max-sm:w-32 max-sm:h-16"
             />
           </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-start gap-6 text-left w-full mx-auto px-6 md:px-[112px] pt-20 pb-10">
+        <h1 className="text-primary text-4xl md:text-6xl font-extrabold leading-tight w-full">
+          One Click. Global Payroll. Done.
+        </h1>
+
+        <p className="text-base md:text-xl font-light leading-6 text-gray-600 w-full">
+          Hireoid centralizes all your analytics into a unified dashboard, providing effortless access to information for managing your global workforce. Seamlessly review and compare payroll and attendance data month-to-month, ensuring proactive cost management.
+        </p>
+
+        <div className="relative w-full max-w-full mx-auto mt-8">
+          <img src={summary} alt="Payroll summary" className="w-full" />
         </div>
       </div>
 
