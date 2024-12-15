@@ -63,17 +63,17 @@ const HealthCare = () => {
 
                 <div className='flex flex-col items-start gap-6'>
                     <div className='flex justify-start items-center gap-3'>
-                        <p className='font-inter text-base md:text-xl font-normal text-[#525252]'>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252] underline'>
                             Fill openings 5x faster with our pre-vetted talent pool.
                         </p>
                     </div>
                     <div className='flex justify-start items-center gap-3'>
-                        <p className='font-inter text-base md:text-xl font-normal text-[#525252]'>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252] underline'>
                             Save up to 47% on staffing costs with Hireoid's remote talent pool.
                         </p>
                     </div>
                     <div className='flex justify-start items-center gap-3'>
-                        <p className='font-inter text-base md:text-xl font-normal text-[#525252]'>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252] underlinegit '>
                             Say goodbye to revolving doors! Hireoid's 96.2% retention rate ensures a stable, sustainable, qualified team.
                         </p>
                     </div>
