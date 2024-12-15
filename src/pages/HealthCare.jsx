@@ -6,6 +6,7 @@ import ClientSuccess from "../assets/health-care/ClientSuccess.png"
 import Insurance from "../assets/health-care/Insurance.png"
 import MedicalBilling from "../assets/health-care/MedicalBilling.png"
 import MedicalCode from "../assets/health-care/MedicalCode.png"
+import summary1 from "../assets/health-care/summary.png"
 import CardGrid from '@/components/card/CardGrid'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -73,7 +74,7 @@ const HealthCare = () => {
                         </p>
                     </div>
                     <div className='flex justify-start items-center gap-3'>
-                        <p className='font-inter text-base md:text-xl font-normal text-[#525252] underlinegit '>
+                        <p className='font-inter text-base md:text-xl font-normal text-[#525252] underline'>
                             Say goodbye to revolving doors! Hireoid's 96.2% retention rate ensures a stable, sustainable, qualified team.
                         </p>
                     </div>
@@ -87,6 +88,17 @@ const HealthCare = () => {
 
                 </button>
             </div>
+
+            <section className="flex flex-col items-start gap-6 text-left w-full px-6 md:px-[112px] py-10 md:py-20 flex-grow">
+                <h1 className="text-primary text-4xl md:text-6xl font-extrabold leading-tight w-full">
+                    Securing Your Tomorrow, Today.
+                </h1>
+                <p className="text-base md:text-xl font-light leading-6 text-gray">
+                    Protecting your patients' privacy is our priority. Our policies ensure your practice is HIPAA-compliant today and prepared for future advancements.                </p>
+                <div className="relative w-full max-w-full mx-auto mt-8 flex-grow">
+                    <img src={summary1} alt="Payroll summary" className="w-full h-full object-cover" />
+                </div>
+            </section>
 
             <Ceo />
         </>
