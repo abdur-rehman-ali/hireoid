@@ -5,6 +5,7 @@ import frame1 from "../assets/global-payrol/global-frame-1.png"
 import frame2 from "../assets/global-payrol/global-frame-2.png"
 import summary from "../assets/global-payrol/summary-detail.png"
 import summary1 from "../assets/global-payrol/global-payrol-workforce.png"
+import Card from "../assets/global-payrol/pay-payrol.png"
 
 const GlobalPayrol = () => {
   return (
@@ -36,6 +37,26 @@ speed, flexibility, and compliance."
               src={frame2}
               alt="Frame 2"
               className="w-80 h-64 md:w-80 md:h-40 max-sm:w-32 max-sm:h-16"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className='max-w-1440 mx-auto'>
+        <div className="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-28 py-10 md:py-20">
+          <div className='flex-1 md:flex-[0.55] flex flex-col items-start gap-5'>
+            <h1 className="text-primary text-4xl md:text-6xl font-bold leading-tight tracking-wide">
+              Pay Your Team Worldwide, On Time, Every Time
+            </h1>
+            <p className="text-lg md:text-xl font-light leading-6 text-[#525252]">
+              Add bonuses and raises whenever you want
+            </p>
+          </div>
+          <div className='flex-1 md:flex-[0.4]'>
+            <img
+              src={Card}
+              alt="Hero"
+              className="w-full md:w-[488px] h-auto object-cover rounded-lg"
             />
           </div>
         </div>
