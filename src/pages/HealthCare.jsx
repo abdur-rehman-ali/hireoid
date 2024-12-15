@@ -2,9 +2,28 @@ import React from 'react'
 import hero from '../assets/health-care/hero.png'
 import { HeroSection, HowDoesItWork, Ceo, Topperformer, WhyHireoid } from '../components'
 import { contentData } from '@/data/contentData'
-import Card from "../assets/ReatilEcommerce/card_image.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import ClientSuccess from "../assets/health-care/ClientSuccess.png"
+import Insurance from "../assets/health-care/Insurance.png"
+import MedicalBilling from "../assets/health-care/MedicalBilling.png"
+import MedicalCode from "../assets/health-care/MedicalCode.png"
+import CardGrid from '@/components/card/CardGrid'
+
+
+const healthCareCardsData = [
+    {
+      image: ClientSuccess,
+    },
+    {
+      image: Insurance,
+    },
+    {
+      image: MedicalBilling,
+    },
+    {
+      image: MedicalCode,
+    },
+  ];
+
 
 const HealthCare = () => {
     return (
@@ -15,6 +34,11 @@ const HealthCare = () => {
                 imageSrc={hero}
                 buttonText="Hire Talent"
                 onButtonClick={() => alert('Button clicked!')}
+            />
+
+            <CardGrid
+                cardTitle="Chronic staffing challenges? </br> Hireoid has the cure: Pre-vetted candidates."
+                cardsData={healthCareCardsData}
             />
             {/* How it Works */}
             <div className='bg-[#F8F9FB]'>
@@ -29,7 +53,7 @@ const HealthCare = () => {
             </div>
             {/* CEO Spliang */}
             <Ceo />
-           
+
         </>
     )
 }
