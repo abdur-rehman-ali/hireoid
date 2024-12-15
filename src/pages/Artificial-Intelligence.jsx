@@ -5,6 +5,26 @@ import { contentData } from '@/data/contentData'
 import Card from "../assets/artificial-intellegence/card.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import ClientSuccess from "../assets/health-care/ClientSuccess.png"
+import Insurance from "../assets/health-care/Insurance.png"
+import MedicalBilling from "../assets/health-care/MedicalBilling.png"
+import MedicalCode from "../assets/health-care/MedicalCode.png"
+import CardGrid from '@/components/card/CardGrid'
+
+const healthCareCardsData = [
+    {
+        image: ClientSuccess,
+    },
+    {
+        image: Insurance,
+    },
+    {
+        image: MedicalBilling,
+    },
+    {
+        image: MedicalCode,
+    },
+];
 
 const ArtificialIntelligence = () => {
     return (
@@ -15,6 +35,10 @@ const ArtificialIntelligence = () => {
                 imageSrc={hero}
                 buttonText="Get Started"
                 onButtonClick={() => alert('Button clicked!')}
+            />
+            <CardGrid
+                cardTitle="Skill our talent are specialized on"
+                cardsData={healthCareCardsData}
             />
             {/* How it Works */}
             <div className='bg-[#F8F9FB]'>
