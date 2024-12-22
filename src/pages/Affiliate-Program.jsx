@@ -8,6 +8,13 @@ import {
   HomeCards,
 } from "../components";
 import cardOne from "../assets/affiliate/cardOne.png";
+import cardTwo from "../assets/affiliate/card2.png";
+import cardThree from "../assets/affiliate/card3.png";
+import frame1 from "../assets/affiliate/frame1.png";
+import frame2 from "../assets/affiliate/frame2.png";
+import frame3 from "../assets/affiliate/frame3.png";
+import frame4 from "../assets/affiliate/frame4.png";
+import frame5 from "../assets/affiliate/frame5.png";
 
 const SatffingData = [
   {
@@ -58,9 +65,9 @@ const AffiliateProgram = () => {
     <>
       <HeroSection
         title="Build Your Dream Team"
-        subtitle="Perfectly Matched People, Skills & Budget 
-Experience the advantages of a remote workforce – access to a wider range of skills and a dedicated team member – without the burden of managing remote work logistics.
-Scale up or down effortlessly - we adapt to your evolving needs."
+        subtitle="Join Hireoid Affiliate Program and earn up
+to 15% commission on referrals for a full year.
+free to sign up, easy to participate in, and there no minimum sales requirement."
         imageSrc={hero}
         buttonText="Schedule a demo"
         onButtonClick={() => alert("Button clicked!")}
@@ -84,7 +91,7 @@ Scale up or down effortlessly - we adapt to your evolving needs."
             src={cardOne}
             style={{ height: `409px`, width: `511px` }}
             className="object-contain"
-            alt="Description of card" 
+            alt="Description of card"
           />
         </div>
         <div className="flex flex-col flex-1 items-start justify-center">
@@ -97,6 +104,132 @@ Scale up or down effortlessly - we adapt to your evolving needs."
             by promoting Hireoid.com to their audience or partners.
           </p>
         </div>
+      </div>
+
+
+      <div className={`flex flex-col md:flex-row gap-8 px-6 md:px-28 py-5 max-w-1440 mx-auto`}>
+        <div className="flex-1 flex justify-center">
+          <img
+            src={cardThree}
+            style={{ height: `449px`, width: `611px` }}
+            className="object-contain"
+            alt="Description of card"
+          />
+        </div>
+        <div className="flex flex-col flex-1 items-start justify-center">
+          <h1 className="text-primary mb-4 text-4xl md:text-5xl font-extrabold leading-normal tracking-tight">
+            Why partner with Hireoid.com?
+          </h1>
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame1}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            Free to join
+          </p>
+
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame2}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            No limit on the commissions you can earn.
+          </p>
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame3}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            No minimum sales requirement.
+          </p>
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame4}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            Expert support and management.
+          </p>
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame5}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            Recurring revenue potential.
+          </p>
+        </div>
+      </div>
+
+      <div className={`flex flex-col md:flex-row-reverse gap-8 px-6 md:px-28 py-5 max-w-1440 mx-auto`}>
+        <div className="flex-1 flex justify-center">
+          <img
+            src={cardTwo}
+            style={{ height: `449px`, width: `611px` }}
+            className="object-contain"
+            alt="Description of card"
+          />
+        </div>
+        <div className="flex flex-col flex-1 items-start justify-center">
+          <h1 className="text-primary mb-4 text-4xl md:text-5xl font-extrabold leading-normal tracking-tight">
+            How much can you earn?
+          </h1>
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame1}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            Your commissions are equal to a percentage of the revenue that Hireoid earns
+            from referrals in a given month.
+          </p>
+
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame2}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            <p><strong>10% revenue</strong> share in months where the total revenue referred is less than
+            $10,000.</p>
+          </p>
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame3}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            <p><strong>15% revenue</strong> share in months where the total revenue referred is more than
+            $10,000.</p>
+          </p>
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame4}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+             Referral commissions are paid monthly and calculated based on Hireoid’s
+             charges minus any discounts, security deposits, taxes, and VAT (or GST).Commissions are only valid for 12 months from the activation date.
+          </p>
+          
+        </div>
+      </div>
+
+
+
+      <div className="px-6 py-6 md:px-[120px] pt-20 max-w-1440 mx-auto flex flex-col gap-6">
+        <h1 className="text-primary text-4xl md:text-5xl font-extrabold leading-normal tracking-tight">
+          We are committed to cultivating meaningful partnerships.
+        </h1>
+        <p className="text-[#525252] mb-6 text-lg md:text-xl font-light leading-snug tracking-tight">
+          We extend an invitation to recommend Hireoid to your network or partners, and
+          in return, offer a commission for each client referral. As a Hireoid affiliate, you
+          gain access to valuable marketing materials and exclusive resources tailored to
+          effectively communicate the advantages of partnering with Hireoid.
+        </p>
       </div>
 
 
