@@ -6,23 +6,27 @@ import Card from "../assets/artificial-intellegence/card.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import ClientSuccess from "../assets/health-care/ClientSuccess.png"
+import machine1 from "../assets/artificial-intellegence/machine1.png"
+import machine2 from "../assets/artificial-intellegence/machine2.png"
+import machine3 from "../assets/artificial-intellegence/machine3.png"
+import machine4 from "../assets/artificial-intellegence/machine4.png"
 import Insurance from "../assets/health-care/Insurance.png"
 import MedicalBilling from "../assets/health-care/MedicalBilling.png"
 import MedicalCode from "../assets/health-care/MedicalCode.png"
 import CardGrid from '@/components/card/CardGrid'
 
-const healthCareCardsData = [
+const machineCardsData = [
     {
-        image: ClientSuccess,
+        image: machine1,
     },
     {
-        image: Insurance,
+        image: machine2,
     },
     {
-        image: MedicalBilling,
+        image: machine3,
     },
     {
-        image: MedicalCode,
+        image: machine4,
     },
 ];
 
@@ -38,7 +42,7 @@ const ArtificialIntelligence = () => {
             />
             <CardGrid
                 cardTitle="Skill our talent are specialized on"
-                cardsData={healthCareCardsData}
+                cardsData={machineCardsData}
             />
             {/* How it Works */}
             <div className='bg-[#F8F9FB]'>
