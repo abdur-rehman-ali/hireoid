@@ -6,23 +6,23 @@ import Card from "../assets/ReatilEcommerce/card_image.png"
 import CardGrid from '@/components/card/CardGrid'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import ClientSuccess from "../assets/health-care/ClientSuccess.png"
-import Insurance from "../assets/health-care/Insurance.png"
-import MedicalBilling from "../assets/health-care/MedicalBilling.png"
-import MedicalCode from "../assets/health-care/MedicalCode.png"
+import EcommerceProductManager from "../assets/travel-and-hospitality/EcommerceProductManager.png"
+import InventoryControlSpecialist from "../assets/travel-and-hospitality/InventoryControlSpecialist.png"
+import SalesAssociate from "../assets/travel-and-hospitality/SalesAssociate.png"
+import VisualMerchandiser from "../assets/travel-and-hospitality/VisualMerchandiser.png"
 
-const healthCareCardsData = [
+const travelAndHospitalityCardsData = [
     {
-        image: ClientSuccess,
+        image: EcommerceProductManager,
     },
     {
-        image: Insurance,
+        image: InventoryControlSpecialist,
     },
     {
-        image: MedicalBilling,
+        image: SalesAssociate,
     },
     {
-        image: MedicalCode,
+        image: VisualMerchandiser,
     },
 ];
 
@@ -40,7 +40,7 @@ const TravelAndHospitality = () => {
 
             <CardGrid
                 cardTitle="Our talent has experience working as"
-                cardsData={healthCareCardsData}
+                cardsData={travelAndHospitalityCardsData}
             />
             {/* How it Works */}
             <div className='bg-[#F8F9FB]'>
