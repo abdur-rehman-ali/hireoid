@@ -87,10 +87,10 @@ const Navbar = () => {
           </DropdownMenu>
 
           {/* Other Desktop Links */}
-          <Link to="/about-us" className="cursor-pointer">
-            About Us
+          <Link to="/affiliate-program" className="cursor-pointer">
+            Affiliate Program
           </Link>
-          <Link to="/contact" className="cursor-pointer">
+          <Link to="#" className="cursor-pointer">
             Contact
           </Link>
         </div>
