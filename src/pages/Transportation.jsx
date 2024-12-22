@@ -2,28 +2,25 @@ import React from 'react'
 import hero from '../assets/transportation/hero.png'
 import { HeroSection, HowDoesItWork, Ceo, Topperformer, WhyHireoid } from '../components'
 import { contentData } from '@/data/contentData'
-import Card from "../assets/ReatilEcommerce/card_image.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import ClientSuccess from "../assets/health-care/ClientSuccess.png"
-import Insurance from "../assets/health-care/Insurance.png"
-import MedicalBilling from "../assets/health-care/MedicalBilling.png"
-import MedicalCode from "../assets/health-care/MedicalCode.png"
+import EcommerceProductManager from "../assets/transportation/EcommerceProductManager.png"
+import InventoryControl from "../assets/transportation/InventoryControl.png"
+import Visual from "../assets/transportation/Visual.png"
+import VisualMerchandiser from "../assets/transportation/VisualMerchandiser.png"
 import CardGrid from '@/components/card/CardGrid'
 
 
-const healthCareCardsData = [
+const transportationCardsData = [
     {
-        image: ClientSuccess,
+        image: VisualMerchandiser,
     },
     {
-        image: Insurance,
+        image: Visual,
     },
     {
-        image: MedicalBilling,
+        image: InventoryControl,
     },
     {
-        image: MedicalCode,
+        image: EcommerceProductManager,
     },
 ];
 
@@ -39,7 +36,7 @@ const Transportation = () => {
             />
             <CardGrid
                 cardTitle="Find your ideal talent match"
-                cardsData={healthCareCardsData}
+                cardsData={transportationCardsData}
             />
             {/* How it Works */}
             <div className='bg-[#F8F9FB]'>
