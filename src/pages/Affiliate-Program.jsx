@@ -168,7 +168,7 @@ free to sign up, easy to participate in, and there no minimum sales requirement.
         <div className="flex-1 flex justify-center">
           <img
             src={cardTwo}
-            style={{ height: `429px`, width: `611px` }}
+            style={{ height: `449px`, width: `611px` }}
             className="object-contain"
             alt="Description of card"
           />
@@ -177,24 +177,47 @@ free to sign up, easy to participate in, and there no minimum sales requirement.
           <h1 className="text-primary mb-4 text-4xl md:text-5xl font-extrabold leading-normal tracking-tight">
             How much can you earn?
           </h1>
-          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame1}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
             Your commissions are equal to a percentage of the revenue that Hireoid earns
             from referrals in a given month.
           </p>
-          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
-            <strong>10% revenue</strong> share in months where the total revenue referred is less than
-            $10,000.
+
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame2}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            <p><strong>10% revenue</strong> share in months where the total revenue referred is less than
+            $10,000.</p>
           </p>
-          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
-            <strong>15% revenue</strong> share in months where the total revenue referred is more than
-            $10,000.
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame3}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+            <p><strong>15% revenue</strong> share in months where the total revenue referred is more than
+            $10,000.</p>
           </p>
-          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
-            Referral commissions are paid monthly and calculated based on Hireoid’s
-            charges minus any discounts, security deposits, taxes, and VAT (or GST).Commissions are only valid for 12 months from the activation date.
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame4}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
+             Referral commissions are paid monthly and calculated based on Hireoid’s
+             charges minus any discounts, security deposits, taxes, and VAT (or GST).Commissions are only valid for 12 months from the activation date.
           </p>
+          
         </div>
       </div>
+
 
 
       <div className="px-6 py-6 md:px-[120px] pt-20 max-w-1440 mx-auto flex flex-col gap-6">
