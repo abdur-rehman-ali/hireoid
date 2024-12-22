@@ -10,6 +10,11 @@ import {
 import cardOne from "../assets/affiliate/cardOne.png";
 import cardTwo from "../assets/affiliate/card2.png";
 import cardThree from "../assets/affiliate/card3.png";
+import frame1 from "../assets/affiliate/frame1.png";
+import frame2 from "../assets/affiliate/frame2.png";
+import frame3 from "../assets/affiliate/frame3.png";
+import frame4 from "../assets/affiliate/frame4.png";
+import frame5 from "../assets/affiliate/frame5.png";
 
 const SatffingData = [
   {
@@ -106,7 +111,7 @@ free to sign up, easy to participate in, and there no minimum sales requirement.
         <div className="flex-1 flex justify-center">
           <img
             src={cardThree}
-            style={{ height: `429px`, width: `611px` }}
+            style={{ height: `449px`, width: `611px` }}
             className="object-contain"
             alt="Description of card"
           />
@@ -115,19 +120,45 @@ free to sign up, easy to participate in, and there no minimum sales requirement.
           <h1 className="text-primary mb-4 text-4xl md:text-5xl font-extrabold leading-normal tracking-tight">
             Why partner with Hireoid.com?
           </h1>
-          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame1}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
             Free to join
           </p>
-          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame2}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
             No limit on the commissions you can earn.
           </p>
-          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame3}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
             No minimum sales requirement.
           </p>
-          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame4}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
             Expert support and management.
           </p>
-          <p className="text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+          <p className="flex flex-row items-center text-lg md:text-xl font-normal leading-6 text-gray mb-6">
+            <img
+              src={frame5}
+              className="object-contain mr-5"
+              alt="Description of card"
+            />
             Recurring revenue potential.
           </p>
         </div>
