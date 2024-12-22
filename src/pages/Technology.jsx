@@ -2,27 +2,24 @@ import React from 'react'
 import hero from '../assets/technology/hero.png'
 import { HeroSection, HowDoesItWork, Ceo, Topperformer, WhyHireoid } from '../components'
 import { contentData } from '@/data/contentData'
-import Card from "../assets/ReatilEcommerce/card_image.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import ClientSuccess from "../assets/health-care/ClientSuccess.png"
-import Insurance from "../assets/health-care/Insurance.png"
-import MedicalBilling from "../assets/health-care/MedicalBilling.png"
-import MedicalCode from "../assets/health-care/MedicalCode.png"
+import Frontend from "../assets/technology/Frontend.png"
+import FullStack from "../assets/technology/FullStack.png"
+import UI from "../assets/technology/UI.png"
+import Wordpress from "../assets/technology/Wordpress.png"
 import CardGrid from '@/components/card/CardGrid'
 
-const healthCareCardsData = [
+const technologyCardsData = [
     {
-        image: ClientSuccess,
+        image: Frontend,
     },
     {
-        image: Insurance,
+        image: FullStack,
     },
     {
-        image: MedicalBilling,
+        image: UI,
     },
     {
-        image: MedicalCode,
+        image: Wordpress,
     },
 ];
 
@@ -39,7 +36,7 @@ const Technology = () => {
             />
             <CardGrid
                 cardTitle="Skill our talent are specialized on"
-                cardsData={healthCareCardsData}
+                cardsData={technologyCardsData}
             />
             {/* How it Works */}
             <div className='bg-[#F8F9FB]'>
